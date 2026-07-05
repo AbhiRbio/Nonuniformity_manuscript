@@ -76,8 +76,8 @@ The applied central style (now in the notebook) — all within the verified spec
 
 ```python
 mpl.rcParams.update({
-    'font.family':'Arial', 'font.size':6, 'axes.labelsize':6,
-    'axes.labelweight':'regular', 'axes.labelpad':1.0, 'axes.titlesize':7,
+    'font.family':'Arial', 'font.size':6, 'axes.labelsize':8,
+    'axes.labelweight':'bold', 'axes.labelpad':1.0, 'axes.titlesize':7,
     'xtick.labelsize':6, 'ytick.labelsize':6, 'legend.fontsize':6,
     'axes.linewidth':0.6, 'xtick.major.width':0.6, 'ytick.major.width':0.6,
     'xtick.major.size':3, 'ytick.major.size':3,
@@ -127,9 +127,9 @@ The plots were exported at `figsize=(8, 4) = 203 × 102 mm` then **scaled down i
 
 `WD_quick`, `circle_WD`, `process_run_data`, and `median_and_iqr_errors` are **untouched** (verified byte-identical to the upload). Changes:
 
-- **Central style:** `font.size` 12 → **6**; labels **bold → regular**; `labelpad` 5.0 → **1.0**; **added `axes.linewidth: 0.6`**; tick width 1 → **0.6**; tick length 6 → **3**; `titlesize` → 7. `pdf.fonttype=42` / `svg.fonttype='none'` retained.
+- **Central style:** `font.size` 12 → **6**; axis labels **→ 8 pt bold** (tick numbers 6 pt); `labelpad` 5.0 → **1.0**; **added `axes.linewidth: 0.6`**; tick width 1 → **0.6**; tick length 6 → **3**; `titlesize` → 7. `pdf.fonttype=42` / `svg.fonttype='none'` retained.
 - **Panel D (single-run trace):** `figsize` (8,4) → **(85, 50) mm**.
-- **Panel E (across distributions — key panel):** `figsize` (8,4) → **(114, 64) mm**, deliberately larger than D.
+- **Panel E (across distributions — key panel):** `figsize` (8,4) → **(168, 74) mm** — the full-width bottom row of the layout template (`Figure1_layout_template.svg`).
 - **Median line weight 2 → 1.5 pt** in the plotting helper, to meet the verified 0.5–1.5 pt rule (the one line touched in that helper; band edge left at 1 pt).
 - **Added `save_panel(...)`**; commented `save_panel` calls replace the old `savefig` lines (no `bbox_inches='tight'`).
 
@@ -143,7 +143,7 @@ Re-running D and E now exports 6 pt / ≤1.5 pt panels at final size, ready for 
 2. **Re-import D and E at their exported size and do not resize them** — this lifts axis text from 4.3 pt to 6 pt.
 3. **Re-set the 12 pt elements:** image time-stamps and "Non-uniform/Uniform" to **6–7 pt**; **panel letters to 8 pt bold capitals**.
 4. **Move the B title sentence into the figure legend** (in the manuscript text) — required: titles/legends must not be in the image file.
-5. **Grow panel E** into the reclaimed space; keep D smaller. (E can go up to full width if placed on its own row.)
+5. **Panel E occupies the full-width bottom row** (see `Figure1_layout_template.svg`), exported at 168 × 74 mm; keep D smaller (85 × 50 mm). Import both at their exported size — do not resize.
 6. **Add scale bars to B and C** — required on microscopy images; bake `scale_bar` into the Cytosim `display=(...)` block, or draw a fixed-length bar + label on the labels layer.
 7. **Recolour the filament ends** — **required**: red and green must not be used together, and capped = red / growing = green currently violates this. Use a post-hoc `coloring`/`color` change in `properties.cmo` (e.g. vermillion vs bluish-green from Okabe-Ito).
 8. **Export the composite as PDF** (fonts embedded, flattened), named `Figure 1.pdf`, ≤ 20 MB; confirm every raster ≥ 300 ppi at final size.
