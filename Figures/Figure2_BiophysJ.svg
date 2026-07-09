@@ -5584,7 +5584,7 @@
        inkscape:label="E"><tspan
          x="465.46484"
          y="533.40886"
-         id="tspan3">E</tspan></text><text
+         id="tspan1">E</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-35.987803,-74.605705)"
        id="text61-2"
@@ -5592,7 +5592,7 @@
        inkscape:label="D"><tspan
          x="465.46484"
          y="533.40886"
-         id="tspan4">D</tspan></text><text
+         id="tspan2">D</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-122.09029,-74.605705)"
        id="text61-4"
@@ -5600,7 +5600,7 @@
        inkscape:label="C"><tspan
          x="465.46484"
          y="533.40886"
-         id="tspan5">C</tspan></text><text
+         id="tspan3">C</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-36.007646,-129.66589)"
        id="text61"
@@ -5608,7 +5608,7 @@
        inkscape:label="B"><tspan
          x="465.46484"
          y="533.40886"
-         id="tspan6">B</tspan></text><text
+         id="tspan4">B</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,1.3832908,1.9072995)"
        id="text60"
@@ -5616,7 +5616,7 @@
        inkscape:label="A_1"><tspan
          x="51.042969"
          y="35.129562"
-         id="tspan7">Snapshots of 4 ARP2/3 complex distributions</tspan></text><text
+         id="tspan5">Snapshots of 4 ARP2/3 complex distributions</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-122.09029,-129.66589)"
        id="text61-0-9"
@@ -5624,4 +5624,4 @@
        inkscape:label="A"><tspan
          x="465.46484"
          y="533.40886"
-         id="tspan8">A</tspan></text></g></svg>
+         id="tspan6">A</tspan></text></g></svg>
