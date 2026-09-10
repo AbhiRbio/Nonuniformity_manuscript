@@ -10,7 +10,7 @@
    xml:space="preserve"
    inkscape:version="1.4.4 (dcaf3e7d, 2026-05-05)"
    sodipodi:docname="Figure5_BiophysJ.svg"
-   inkscape:export-filename="Figure5_BiophysJ.png"
+   inkscape:export-filename="Figure5_BiophysJ.svg"
    inkscape:export-xdpi="600"
    inkscape:export-ydpi="600"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -28,13 +28,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showguides="true"
-     inkscape:zoom="1.361613"
-     inkscape:cx="276.51029"
-     inkscape:cy="257.78251"
-     inkscape:window-width="1024"
-     inkscape:window-height="945"
-     inkscape:window-x="743"
-     inkscape:window-y="100"
+     inkscape:zoom="1.1816091"
+     inkscape:cx="283.93485"
+     inkscape:cy="268.70138"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      inkscape:export-bgcolor="#ffffffff"><sodipodi:guide
@@ -281,7 +281,7 @@
                style="font-weight:700;font-size:8px;font-family:Arial;text-anchor:middle;fill:#262626"
                x="135.50056"
                y="177.50665"
-               id="text9-5">Uniformity | size (residual)</text></g></g><g
+               id="text9-5">Uniformity | fiber count (residual)</text></g></g><g
            id="matplotlib.axis_2-76"><g
              id="ytick_1-85"><g
                id="line2d_8-4"><defs
@@ -2388,7 +2388,7 @@
                style="font-weight:700;font-size:8px;font-family:Arial;text-anchor:middle;fill:#262626"
                x="134.92697"
                y="177.50665"
-               id="text11-02">Size | uniformity (residual)</text></g></g><g
+               id="text11-02">Size | fiber count (residual)</text></g></g><g
            id="matplotlib.axis_2-4"><g
              id="ytick_1-4"><g
                id="line2d_10-19"><defs
