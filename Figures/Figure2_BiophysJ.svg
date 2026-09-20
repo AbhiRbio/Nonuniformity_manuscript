@@ -27,13 +27,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.88476943"
-     inkscape:cx="350.93889"
-     inkscape:cy="348.11329"
+     inkscape:zoom="1.1064825"
+     inkscape:cx="266.15875"
+     inkscape:cy="377.32183"
      inkscape:window-width="1920"
-     inkscape:window-height="945"
+     inkscape:window-height="1052"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="28"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer2"
      inkscape:export-bgcolor="#ffffffff" /><defs
@@ -663,7 +663,21 @@
          y="6.48"
          width="31.68564"
          height="38.886142"
-         id="rect35-6" /></clipPath></defs><g
+         id="rect35-6" /></clipPath><style
+       type="text/css"
+       id="style1-38">*{stroke-linejoin: round; stroke-linecap: butt}</style><path
+       id="mf18e25ad04-1"
+       d="M 0 0  L 0 3  "
+       style="stroke: #000000; stroke-width: 0.6" /><path
+       id="m554aa64797-0"
+       d="M 0 0  L -3 0  "
+       style="stroke: #000000; stroke-width: 0.6" /><clipPath
+       id="pd96fed9184-7"><rect
+         x="31.26"
+         y="6.48"
+         width="41.630079"
+         height="38.829892"
+         id="rect49-4" /></clipPath></defs><g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Plots"><g
@@ -10990,7 +11004,7 @@
          inkscape:label="A_3"><tspan
            x="17.458984"
            y="158.01042"
-           id="tspan10">z</tspan></text><text
+           id="tspan1">z</tspan></text><text
          xml:space="preserve"
          id="text30-2"
          style="font-size:10.6667px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect31-5);display:inline;fill:#000000;stroke:none;stroke-width:0.377953;stroke-linecap:butt;stroke-linejoin:round"
@@ -10998,7 +11012,7 @@
          inkscape:label="A_2"><tspan
            x="17.458984"
            y="158.01042"
-           id="tspan11">y</tspan></text><text
+           id="tspan2">y</tspan></text><text
          xml:space="preserve"
          id="text30"
          style="font-size:10.6667px;font-family:Arial;-inkscape-font-specification:Arial;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect31);display:inline;fill:#000000;stroke:none;stroke-width:0.377953"
@@ -11006,7 +11020,7 @@
          inkscape:label="A_1"><tspan
            x="17.458984"
            y="158.01042"
-           id="tspan12">x</tspan></text></g><g
+           id="tspan3">x</tspan></text></g><g
        id="figure_1-1"
        transform="matrix(0.35277778,0,0,0.35277778,1.6595909,8.8297959)"><g
          id="patch_1"><path
@@ -11675,7 +11689,7 @@
        inkscape:label="F"><tspan
          x="465.46484"
          y="533.40886"
-         id="tspan13">F</tspan></text><text
+         id="tspan4">F</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-121.99452,-10.44531)"
        id="text61-2"
@@ -11683,7 +11697,7 @@
        inkscape:label="E"><tspan
          x="465.46484"
          y="533.40886"
-         id="tspan14">E</tspan></text><text
+         id="tspan5">E</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-35.890648,-72.84697)"
        id="text61-4"
@@ -11691,7 +11705,7 @@
        inkscape:label="D"><tspan
          x="465.46484"
          y="533.40886"
-         id="tspan15">D
+         id="tspan6">D
 </tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-122.03448,-72.84697)"
@@ -11700,7 +11714,7 @@
        inkscape:label="C"><tspan
          x="465.46484"
          y="533.40886"
-         id="tspan16">C</tspan></text><text
+         id="tspan7">C</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-35.874662,-127.8727)"
        id="text61"
@@ -11708,7 +11722,7 @@
        inkscape:label="B"><tspan
          x="465.46484"
          y="533.40886"
-         id="tspan17">B</tspan></text><text
+         id="tspan8">B</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,-122.03448,-127.8727)"
        id="text61-0-9"
@@ -11716,4 +11730,4 @@
        inkscape:label="A"><tspan
          x="465.46484"
          y="533.40886"
-         id="tspan18">A</tspan></text></g></svg>
+         id="tspan9">A</tspan></text></g></svg>
